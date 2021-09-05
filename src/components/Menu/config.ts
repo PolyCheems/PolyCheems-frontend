@@ -13,15 +13,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Exchange'),
-        href: '/swap',
+        href: 'https://quickswap.exchange/#/swap?outputCurrency=0xd2D3C4d6Ecd04C258b8012378A85eF81EEd4683A',
       },
       {
         label: t('Liquidity'),
-        href: '/liquidity',
-      },
-      {
-        label: t('LP Migration'),
-        href: 'https://v1exchange.pancakeswap.finance/#/migrate',
+        href: 'https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xd2D3C4d6Ecd04C258b8012378A85eF81EEd4683A',
       },
     ],
   },
@@ -36,52 +32,9 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     href: '/pools',
   },
   {
-    label: t('Prediction (BETA)'),
-    icon: 'PredictionsIcon',
-    href: '/prediction',
-  },
-  {
-    label: t('Lottery'),
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
-  {
-    label: t('Collectibles'),
-    icon: 'NftIcon',
-    href: '/collectibles',
-  },
-  {
-    label: t('Team Battle'),
-    icon: 'TeamBattleIcon',
-    href: '/competition',
-  },
-  {
-    label: t('Teams & Profile'),
-    icon: 'GroupsIcon',
-    items: [
-      {
-        label: t('Leaderboard'),
-        href: '/teams',
-      },
-      {
-        label: t('Task Center'),
-        href: '/profile/tasks',
-      },
-      {
-        label: t('Your Profile'),
-        href: '/profile',
-      },
-    ],
-  },
-  {
     label: t('Info'),
     icon: 'InfoIcon',
     href: '/info',
-  },
-  {
-    label: t('IFO'),
-    icon: 'IfoIcon',
-    href: '/ifo',
   },
   {
     label: t('More'),
@@ -90,10 +43,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       {
         label: t('Contact'),
         href: 'https://docs.pancakeswap.finance/contact-us',
-      },
-      {
-        label: t('Voting'),
-        href: '/voting',
       },
       {
         label: t('Github'),
@@ -106,10 +55,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       {
         label: t('Blog'),
         href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: t('Merch'),
-        href: 'https://pancakeswap.creator-spring.com/',
       },
     ],
   },
